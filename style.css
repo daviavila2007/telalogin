@@ -1,0 +1,87 @@
+
+@font-face{
+    font-family: 'skrank';
+    src: url('OFL.txt') format('opentype'), url('Skranji-Regular.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+.body1{
+    background-image: url(mylivewallpapers.com-ADDED-Draven-Glorious-Executioner.mp4);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+    font-size: x-large;
+    -webkit-text-fill-color: #22743a;
+    align-items: center;
+    text-align: center;
+    font-family: 'skrank';
+}
+.body2{
+    background-image: url(mylivewallpapers.com-Aatrox-LOL.mp4);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+    font-size: x-large;
+    -webkit-text-fill-color: #fa0f0b;
+    align-items: center;
+    text-align: center;
+    font-family: 'skrank';
+}
+.div1{
+    border: solid;
+    border-color: #22743a;
+    width: 300px;
+    height: 230px;
+    margin: 0 auto;
+    border-width: 1px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(61, 60, 60), rgb(0, 0, 0));
+    font-weight: 800;
+}
+.div2{
+    border: solid;
+    border-color: #E51200;
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    border-width: 1px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(94, 57, 57), rgb(0, 0, 0));
+    font-weight: 800;
+}
+input{
+    width: 200px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: small;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255));
+}
+.button1{
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: rgb(15, 4, 4);
+    border-color: #E51200;
+}
+a{
+    font-size: medium;
+    -webkit-text-fill-color: #ffffff;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.button2{
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: rgb(15, 4, 4);
+    border-color: #22743a;
+}

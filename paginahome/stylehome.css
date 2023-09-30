@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'skrank';
+    src: url('OFL.txt') format('opentype'), url('Skranji-Regular.ttf') format('truetype');
+    font-size: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(../mylivewallpapers.com-Freljord-Sylas-LoL.mp4);
+    background-size: cover;
+    height: 95vh;
+    width: 95vw;
+    font-size: x-large;
+    -webkit-text-fill-color: #d2fffb;
+    align-items: center;
+    text-align: center;
+    font-family: 'skrank';
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: #000000;
+    border-color: #d2fffb;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+a{
+    -webkit-text-fill-color: #d2fffb;
+}
